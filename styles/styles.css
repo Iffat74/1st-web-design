@@ -95,3 +95,82 @@
 .hero a:active {
   background-color: rgba(73, 7, 7, 0.6);
 }
+
+
+
+.why {
+    margin-top: 14rem;
+  }
+  
+  .why-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .why-head h2 {
+    font-size: 3.2rem;
+    line-height: 1.05;
+    text-align: center;
+    opacity: 0.95;
+  }
+  
+  .why-head p {
+    font-size: 1.6rem;
+    letter-spacing: -0.5px;
+    width: 70%;
+    text-align: center;
+    opacity: 0.9;
+    margin-bottom: 4rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+    align-items: center;
+    padding: 0.4rem;
+  }
+  
+  .why--text-box h3 {
+    font-size: 2.6rem;
+    line-height: 1.05;
+    opacity: 0.95;
+  }
+  
+  .why--text-box p {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    line-height: 1.05;
+    opacity: 0.95;
+    width: 95%;
+  }
+  
+  .why--text-box a:link,
+  .why--text-box a:visited {
+    background-color: rgba(216, 216, 216, 0.4);
+    color: rgba(19, 94, 140, 0.6);
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 1rem 1.2rem;
+    border-radius: 0.6rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+    border: 2px solid rgba(107, 108, 109, 0.6);
+    margin-top: 2rem;
+  }
+  
+  .why--text-box a:active,
+  .why--text-box a:hover {
+    background-color: rgba(180, 180, 180, 0.6);
+  }
+  
+  .why--img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
