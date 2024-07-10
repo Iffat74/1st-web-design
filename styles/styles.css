@@ -1,0 +1,97 @@
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  .hero-bg {
+    background-image:url(/assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 96vh;
+    margin: 0.6rem;
+    border: 1.6px solid rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  
+    scroll-behavior: smooth;
+    overflow-y: auto;
+  }
+  
+  body {
+   
+    line-height: 1;
+    font-weight: 600;
+    color: #555;
+  }
+
+  .container {
+    max-width: 110rem;
+    margin: 0 auto;
+  }
+
+
+
+  
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+  gap: 4rem;
+}
+
+.hero img {
+  width: 20rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.hero h2 {
+  font-size: 3.4rem;
+  line-height: 1.05;
+  text-align: center;
+  text-shadow: 1.2px 1.2px 0.8px rgba(60, 60, 60, 0.6);
+  opacity: 0.95;
+}
+
+.hero p {
+  font-size: 1.8rem;
+  letter-spacing: -0.5px;
+  width: 50%;
+  text-align: center;
+  opacity: 0.9;
+  margin-bottom: 4rem;
+}
+
+.hero a:link,
+.hero a:visited {
+  background-color: rgba(7, 7, 7, 0.929);
+  color: rgba(229, 235, 240, 0.8);
+  text-shadow: 0 0.2rem 0.3rem rgba(15, 48, 117, 0.6);
+  display: inline-block;
+  font-size: 2.2rem;
+  padding: 1.6rem 3rem;
+  border-radius: 1.4rem;
+  text-decoration: none;
+  font-weight: 600;
+  
+  border: 3px solid rgba(107, 108, 109, 0.6);
+}
+
+.hero a:hover,
+.hero a:active {
+  background-color: rgba(73, 7, 7, 0.6);
+}
